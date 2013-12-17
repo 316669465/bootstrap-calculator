@@ -3,8 +3,97 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
+<script type="text/javascript">
+
+
+
+</script>
 </head>
 <body>
-
+<div id="cals" class="dropdown-menu" aria-labelledby="jsq" align="center">
+<table>
+	<tr>
+		<td colspan="4"><input type="text" id="inputclas"
+			style="WIDTH: 140px; height: 30px;" /></td>
+	</tr>
+	<tr align="center">
+		<td><input type="button" value="c"
+			class="btn btn-default" style="height: 30px; width: 30px;"
+			onclick="clasnull()" /></td>
+		<td><input type="button" value="←"
+			class="btn btn-default" style="height: 30px; width: 30px;"
+			onclick="backspace()" /></td>
+		<td>
+			<!-- 此INPUT为/号 --> <input type="button" value="/"
+			class="btn btn-default" style="height: 30px; width: 30px;"
+			onclick="equaloper(this)" />
+		</td>
+		<td>
+			<!-- 此INPUT为*号 --> 
+			<input type="button" value="*" class="btn btn-default" style="height: 30px; width: 30px;"
+			onclick="equaloper(this)"></input>
+		</td>
+	</tr>
+	<tr align="center">
+		<td><input type="button" value="7"
+			class="btn btn-default" style="height: 30px; width: 30px;"
+			onclick="calculators(this)" /></td>
+		<td><input type="button" value="8"
+			class="btn btn-default" style="height: 30px; width: 30px;"
+			onclick="calculators(this)" /></td>
+		<td><input type="button" value="9"
+			class="btn btn-default" style="height: 30px; width: 30px;"
+			onclick="calculators(this)" /></td>
+		<td>
+			<!-- 此INPUT为-号 --> <input type="button" value="-"
+			class="btn btn-default" style="height: 30px; width: 30px;"
+			onclick="equaloper(this)" />
+		</td>
+	</tr>
+	<tr align="center">
+		<td><input type="button" value="4"
+			class="btn btn-default" style="height: 30px; width: 30px;"
+			onclick="calculators(this)" /></td>
+		<td><input type="button" value="5"
+			class="btn btn-default" style="height: 30px; width: 30px;"
+			onclick="calculators(this)" /></td>
+		<td><input type="button" value="6"
+			class="btn btn-default" style="height: 30px; width: 30px;"
+			onclick="calculators(this)" /></td>
+		<td>
+			<!-- 此INPUT为+号 --> <input type="button" value="+"
+			class="btn btn-default" style="height: 30px; width: 30px;"
+			onclick="equaloper(this)" />
+		</td>
+	</tr>
+	<tr align="center">
+		<td><input type="button" value="1"
+			class="btn btn-default" style="height: 30px; width: 30px;"
+			onclick="calculators(this)" /></td>
+		<td><input type="button" value="2"
+			class="btn btn-default" style="height: 30px; width: 30px;"
+			onclick="calculators(this)" /></td>
+		<td><input type="button" value="3"
+			class="btn btn-default" style="height: 30px; width: 30px;"
+			onclick="calculators(this)" /></td>
+		<td rowspan="2">
+			<!-- 此INPUT为=号 --> <input type="button" value="="
+			class="btn btn-default" onclick="equaloper(this)"
+			style="height: 65px; width: 30px;" />
+		</td>
+	</tr>
+	<tr align="center">
+		<td><input type="button" value="0"
+			class="btn btn-default" style="height: 30px; width: 30px;"
+			onclick="calculators(this)" /></td>
+		<td><input type="button" value="00"
+			class="btn btn-default" style="height: 30px; width: 30px;"
+			onclick="calculators(this)" /></td>
+		<td><input type="button" value="."
+			class="btn btn-default" style="height: 30px; width: 30px;"
+			onclick="calculators(this)" /></td>
+		</tr>
+	</table>
+</div>
 </body>
 </html>
